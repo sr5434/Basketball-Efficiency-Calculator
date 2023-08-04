@@ -3,35 +3,35 @@
 <form [formGroup]="statsForm" (ngSubmit)="onSubmit()">
 
     <label for="PPG">Points per game: </label>
-    <input id="PPG" type="number" formControlName="PPG" class="border-solid border m-1">
+    <input id="PPG" type="number" inputmode="decimal"   formControlName="PPG" class="border-solid border m-1">
     <br>
 
     <label for="RPG">Rebounds per game: </label>
-    <input id="RPG" type="number" formControlName="RPG" class="border-solid border  m-1">
+    <input id="RPG" type="number" inputmode="decimal"   formControlName="RPG" class="border-solid border  m-1">
     <br>
 
     <label for="APG">Assists per game: </label>
-    <input id="APG" type="number" formControlName="APG" class="border-solid border  m-1">
+    <input id="APG" type="number" inputmode="decimal" formControlName="APG" class="border-solid border  m-1">
     <br>
 
     <label for="SPG">Steals per game: </label>
-    <input id="SPG" type="number" formControlName="SPG" class="border-solid border  m-1">
+    <input id="SPG" type="number" inputmode="decimal" formControlName="SPG" class="border-solid border  m-1">
     <br>
 
     <label for="BPG">Blocks per game: </label>
-    <input id="BPG" type="number" formControlName="BPG" class="border-solid border  m-1">
+    <input id="BPG" type="number" inputmode="decimal" formControlName="BPG" class="border-solid border  m-1">
     <br>
 
     <label for="MissedFG">Missed field goals per game: </label>
-    <input id="MissedFG" type="number" formControlName="MissedFG" class="border-solid border  m-1">
+    <input id="MissedFG" type="number" inputmode="decimal" formControlName="MissedFG" class="border-solid border  m-1">
     <br>
 
     <label for="MissedFT">Missed free throws per game: </label>
-    <input id="MissedFT" type="number" formControlName="MissedFT" class="border-solid border  m-1">
+    <input id="MissedFT" type="number" inputmode="decimal" formControlName="MissedFT" class="border-solid border  m-1">
     <br>
 
     <label for="TPG">Turnovers per game: </label>
-    <input id="TPG" type="number" formControlName="TO" class="border-solid border  m-1">
+    <input id="TPG" type="number" inputmode="decimal" formControlName="TO" class="border-solid border  m-1">
     <br>
 
     <button type="submit" class="text-white m-1 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 shadow-lg">Calculate</button>
