@@ -33,7 +33,7 @@ export class AppComponent {
   }
 
   onSubmit() {
-    console.log(this.statsForm.value.PPG);
+    //console.log(this.statsForm.value.PPG);
     var eff = this.calculateEff(this.statsForm.value.PPG, this.statsForm.value.RPG, this.statsForm.value.APG, this.statsForm.value.SPG, this.statsForm.value.BPG, this.statsForm.value.MissedFG, this.statsForm.value.MissedFT, this.statsForm.value.TO)
     alert(`This player's efficiency rating is: ${eff}`)
   }
